@@ -85,10 +85,11 @@ margin-left: 160px;
 margin-bottom: 10px;
 width: 620px;
 color: #292929;
+height:500px;
 }
 
 #content h1 {
-font-size: 14px;
+font-size: 25px;
 margin-top: 5px;
 margin-bottom: 0px;
 color: #292929;
@@ -116,13 +117,12 @@ text-decoration: none;
 font-style: italic;
 }
 
-#foot a:hover 
-{
+#foot a:hover {
 text-decoration: underline;
 }
-pre 
-{
- font-family: serif;
-width: 620px;
-color: #292929; 
+span.tab1{
+    padding: 0 50px; /* Or desired space*/
+}
+span.x{
+    padding: 0 165px; /* Or desired space*/
 }
