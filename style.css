@@ -116,6 +116,13 @@ text-decoration: none;
 font-style: italic;
 }
 
-#foot a:hover {
+#foot a:hover 
+{
 text-decoration: underline;
+}
+pre 
+{
+ font-family: serif;
+width: 620px;
+color: #292929; 
 }
