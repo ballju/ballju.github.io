@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background: url("/images/background.jpg") #333333;
+  font: 10pt mono; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+.page {
+  width: 70%;
+  margin: auto; }
+  .page .header, .page .footer, .page .content {
+    padding: 10px; }
+  .page .header, .page .footer {
+    color: #FFFFFF; }
+    .page .header .home, .page .footer .home {
+      font-size: 14pt; }
+    .page .header .navigation, .page .footer .navigation {
+      margin-left: 5%;
+      font-size: 12pt; }
+      .page .header .navigation ul, .page .footer .navigation ul {
+        display: inline;
+        list-style-type: none; }
+      .page .header .navigation li, .page .footer .navigation li {
+        display: inline;
+        margin-right: 20px; }
+    .page .header .copyright, .page .footer .copyright {
+      text-align: center; }
+    .page .header a, .page .footer a {
+      color: #FFFFFF;
+      text-decoration: none; }
+      .page .header a:visited, .page .footer a:visited {
+        color: #FFFFFF; }
+      .page .header a:hover, .page .footer a:hover {
+        color: #009900;
+        text-shadow: 2px 2px 2px #000000; }
+  .page .header {
+    font-weight: bold; }
+  .page .content {
+    background: #FFFFFF;
+    border: 2px #000000 solid;
+    border-radius: 10px; }
+  .page .site {
+    font-family: sans;
+    font-size: 12pt; }
+    .page .site h1 {
+      font-size: 16pt;
+      margin-top: 6pt;
+      margin-bottom: 6pt; }
+    .page .site h2 {
+      font-size: 14pt;
+      margin-bottom: 4pt; }
+    .page .site h3 {
+      font-size: 12pt;
+      margin-left: 10px;
+      margin-bottom: 2pt; }
+    .page .site p {
+      margin-left: 10px;
+      margin-bottom: 5pt;
+      text-align: justify; }
+    .page .site p code, .page .site ul code, .page .site ol code {
+      background: #000000;
+      color: #00FF00;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 2px; }
+    .page .site p li, .page .site ul li, .page .site ol li {
+      margin-bottom: 2pt; }
+    .page .site ul, .page .site ol, .page .site img, .page .site pre {
+      margin-left: 50px;
+      margin-bottom: 5pt; }
+    .page .site img, .page .site pre {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .page .site time {
+      color: #666666; }
+    .page .site .download a {
+      padding-left: 60px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-right: 20px;
+      display: block; }
+    .page .site .download .zip {
+      background: url("/images/zip-icon.png") no-repeat scroll 12px 50% transparent; }
+    .page .site .download .tar-gz {
+      background: url("/images/tar-gz-icon.png") no-repeat scroll 12px 50% transparent; }
+    .page .site .download .archlinux {
+      background: url("/images/archlinux.png") no-repeat scroll 12px 50% transparent; }
+    .page .site .download .debian {
+      background: url("/images/debian.png") no-repeat scroll 12px 50% transparent; }
+    .page .site a {
+      color: #005500;
+      text-decoration: none; }
+      .page .site a:visited {
+        color: #005500; }
+      .page .site a:hover {
+        color: #009900; }
+    .page .site .title {
+      font-size: 18pt;
+      font-weight: bold;
+      margin-bottom: 12pt;
+      padding-bottom: 12pt;
+      border-bottom: 1px #000000 dashed; }
+      .page .site .title .info {
+        float: right; }
+    .page .site .totop {
+      margin-top: 18pt; }
+    .page .site pre {
+      font-size: 10pt;
+      max-height: 500px;
+      overflow: auto;
+      /* Comment */
+      /* Error */
+      /* Keyword */
+      /* Operator */
+      /* Comment.Multiline */
+      /* Comment.Preproc */
+      /* Comment.Single */
+      /* Comment.Special */
+      /* Generic.Deleted */
+      /* Generic.Emph */
+      /* Generic.Error */
+      /* Generic.Heading */
+      /* Generic.Inserted */
+      /* Generic.Output */
+      /* Generic.Prompt */
+      /* Generic.Strong */
+      /* Generic.Subheading */
+      /* Generic.Traceback */
+      /* Keyword.Constant */
+      /* Keyword.Declaration */
+      /* Keyword.Namespace */
+      /* Keyword.Pseudo */
+      /* Keyword.Reserved */
+      /* Keyword.Type */
+      /* Literal.Number */
+      /* Literal.String */
+      /* Name.Attribute */
+      /* Name.Builtin */
+      /* Name.Class */
+      /* Name.Constant */
+      /* Name.Decorator */
+      /* Name.Entity */
+      /* Name.Exception */
+      /* Name.Function */
+      /* Name.Label */
+      /* Name.Namespace */
+      /* Name.Tag */
+      /* Name.Variable */
+      /* Operator.Word */
+      /* Text.Whitespace */
+      /* Literal.Number.Float */
+      /* Literal.Number.Hex */
+      /* Literal.Number.Integer */
+      /* Literal.Number.Oct */
+      /* Literal.String.Backtick */
+      /* Literal.String.Char */
+      /* Literal.String.Doc */
+      /* Literal.String.Double */
+      /* Literal.String.Escape */
+      /* Literal.String.Heredoc */
+      /* Literal.String.Interpol */
+      /* Literal.String.Other */
+      /* Literal.String.Regex */
+      /* Literal.String.Single */
+      /* Literal.String.Symbol */
+      /* Name.Builtin.Pseudo */
+      /* Name.Variable.Class */
+      /* Name.Variable.Global */
+      /* Name.Variable.Instance */
+      /* Literal.Number.Integer.Long */ }
+      .page .site pre .hll {
+        background-color: #ffffcc; }
+      .page .site pre .c {
+        color: #408080;
+        font-style: italic; }
+      .page .site pre .err {
+        border: 1px solid #FF0000; }
+      .page .site pre .k {
+        color: #008000;
+        font-weight: bold; }
+      .page .site pre .o {
+        color: #666666; }
+      .page .site pre .cm {
+        color: #408080;
+        font-style: italic; }
+      .page .site pre .cp {
+        color: #BC7A00; }
+      .page .site pre .c1 {
+        color: #408080;
+        font-style: italic; }
+      .page .site pre .cs {
+        color: #408080;
+        font-style: italic; }
+      .page .site pre .gd {
+        color: #A00000; }
+      .page .site pre .ge {
+        font-style: italic; }
+      .page .site pre .gr {
+        color: #FF0000; }
+      .page .site pre .gh {
+        color: #000080;
+        font-weight: bold; }
+      .page .site pre .gi {
+        color: #00A000; }
+      .page .site pre .go {
+        color: #808080; }
+      .page .site pre .gp {
+        color: #000080;
+        font-weight: bold; }
+      .page .site pre .gs {
+        font-weight: bold; }
+      .page .site pre .gu {
+        color: #800080;
+        font-weight: bold; }
+      .page .site pre .gt {
+        color: #0040D0; }
+      .page .site pre .kc {
+        color: #008000;
+        font-weight: bold; }
+      .page .site pre .kd {
+        color: #008000;
+        font-weight: bold; }
+      .page .site pre .kn {
+        color: #008000;
+        font-weight: bold; }
+      .page .site pre .kp {
+        color: #008000; }
+      .page .site pre .kr {
+        color: #008000;
+        font-weight: bold; }
+      .page .site pre .kt {
+        color: #B00040; }
+      .page .site pre .m {
+        color: #666666; }
+      .page .site pre .s {
+        color: #BA2121; }
+      .page .site pre .na {
+        color: #7D9029; }
+      .page .site pre .nb {
+        color: #008000; }
+      .page .site pre .nc {
+        color: #0000FF;
+        font-weight: bold; }
+      .page .site pre .no {
+        color: #880000; }
+      .page .site pre .nd {
+        color: #AA22FF; }
+      .page .site pre .ni {
+        color: #999999;
+        font-weight: bold; }
+      .page .site pre .ne {
+        color: #D2413A;
+        font-weight: bold; }
+      .page .site pre .nf {
+        color: #0000FF; }
+      .page .site pre .nl {
+        color: #A0A000; }
+      .page .site pre .nn {
+        color: #0000FF;
+        font-weight: bold; }
+      .page .site pre .nt {
+        color: #008000;
+        font-weight: bold; }
+      .page .site pre .nv {
+        color: #19177C; }
+      .page .site pre .ow {
+        color: #AA22FF;
+        font-weight: bold; }
+      .page .site pre .w {
+        color: #bbbbbb; }
+      .page .site pre .mf {
+        color: #666666; }
+      .page .site pre .mh {
+        color: #666666; }
+      .page .site pre .mi {
+        color: #666666; }
+      .page .site pre .mo {
+        color: #666666; }
+      .page .site pre .sb {
+        color: #BA2121; }
+      .page .site pre .sc {
+        color: #BA2121; }
+      .page .site pre .sd {
+        color: #BA2121;
+        font-style: italic; }
+      .page .site pre .s2 {
+        color: #BA2121; }
+      .page .site pre .se {
+        color: #BB6622;
+        font-weight: bold; }
+      .page .site pre .sh {
+        color: #BA2121; }
+      .page .site pre .si {
+        color: #BB6688;
+        font-weight: bold; }
+      .page .site pre .sx {
+        color: #008000; }
+      .page .site pre .sr {
+        color: #BB6688; }
+      .page .site pre .s1 {
+        color: #BA2121; }
+      .page .site pre .ss {
+        color: #19177C; }
+      .page .site pre .bp {
+        color: #008000; }
+      .page .site pre .vc {
+        color: #19177C; }
+      .page .site pre .vg {
+        color: #19177C; }
+      .page .site pre .vi {
+        color: #19177C; }
+      .page .site pre .il {
+        color: #666666; }
